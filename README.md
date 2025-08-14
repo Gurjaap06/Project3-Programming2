@@ -33,19 +33,6 @@ src/
   App.jsx, main.jsx, styles.css
 ```
 
-## Deploy to GitHub Pages
-
-1. **Create a new GitHub repo** and push your code.
-2. Run:
-   ```bash
-   npm run deploy
-   ```
-   This builds the app and pushes `dist/` to the `gh-pages` branch.
-3. In your GitHub repo: **Settings → Pages → Build and deployment**
-   - Source: **Deploy from a branch**
-   - Branch: **gh-pages** (root)
-4. Your site will be available at the Pages URL. Since we use **HashRouter**, SPA routing will work without extra config.
-
 ## Notes
 - PokeAPI is public. Heavy filtering fetches multiple Pokémon details; this project caps some requests for performance.
 - If you rename your repo, no changes are required (HashRouter avoids base path issues).
